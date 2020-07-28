@@ -1,0 +1,46 @@
+.searchComp{
+    min-height: 800px;
+
+    form{
+        text-align: center;
+    }
+    .Input{
+        width: 40%;
+        padding: 10px;
+        box-sizing: border-box;
+        display: inline-flex;
+        .InputElement{
+            outline: none;
+            border: 1px solid #ccc;
+            background-color: white;
+            font: inherit;
+            padding: 6px 10px;
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            &:focus{
+                outline: none;
+                background-color: #ccc;
+            }
+        }
+            }
+            .dropdown{
+                display: inline-flex;
+                width: 90px;
+            }
+            .search{
+                display: inline-flex;
+            }
+            .showed{
+                display: flex;
+                justify-content: center;
+            }
+            
+            .hidded{
+                display: none;
+            }
+}
+
+.MuiSelect-select{
+    min-width: 90px !important;
+}

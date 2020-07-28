@@ -1,0 +1,22 @@
+.movie-container{
+    min-height: 800px;
+}
+
+.movie-inner-container{
+    text-align: center;
+    .image-block{
+        display: flex;
+        justify-content: center;
+    }
+    .content-block1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .heading{
+       font-weight: bold;
+    }
+    .contents{
+        margin-bottom: 10px;
+    }
+}
