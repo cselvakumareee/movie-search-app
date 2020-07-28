@@ -1,3 +1,9 @@
+HI
+To run this project, first clone the project. second give npm install in editor, It will install all dependencies. 
+
+To create build give npm run build
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
